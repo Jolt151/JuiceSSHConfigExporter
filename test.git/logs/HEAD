@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 55f9c06cd8054037eda62881b71427c8f2973873 jolteony <mikelev151@gmail.com> 1497587330 -0400	commit (initial): Initial commit
+55f9c06cd8054037eda62881b71427c8f2973873 55f9c06cd8054037eda62881b71427c8f2973873 jolteony <mikelev151@gmail.com> 1497633466 -0400	checkout: moving from master to appcrash
+55f9c06cd8054037eda62881b71427c8f2973873 e2b651e0e433f2bfebe96376a16faef6317a1e23 jolteony <mikelev151@gmail.com> 1497633562 -0400	commit: TextView (or something else) needs to be modified; app crashes
+e2b651e0e433f2bfebe96376a16faef6317a1e23 dde7ae0bc0f21e003c2e15b63e18337d8d17fe1b jolteony <mikelev151@gmail.com> 1497634362 -0400	commit: working now
+dde7ae0bc0f21e003c2e15b63e18337d8d17fe1b 956cbb1a5967acf0ff208a2d874445f32898c4ef jolteony <mikelev151@gmail.com> 1497636823 -0400	commit: cursor.moveToNext(); , no while loop
+956cbb1a5967acf0ff208a2d874445f32898c4ef 924cd54383983df81bddccf7fe80d9f4c1cd036c jolteony <mikelev151@gmail.com> 1497639701 -0400	commit: Can now iterate through the entries with a button. Toasts "Last entry" at the end and doesnt crash.
+924cd54383983df81bddccf7fe80d9f4c1cd036c 17147bfcb3bd30be429ed5b05d12c47178014d26 jolteony <mikelev151@gmail.com> 1497755614 -0400	commit: omg its functional!! The export to file button outputs to the external storage.
+17147bfcb3bd30be429ed5b05d12c47178014d26 7d0bb41ba0f701dce39a2d3686006f9eda48279d jolteony <mikelev151@gmail.com> 1497758377 -0400	commit: clean up
