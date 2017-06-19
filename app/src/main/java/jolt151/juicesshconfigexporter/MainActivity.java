@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
                 export(getApplicationContext(), "config", body);
-
+                body ="";
 
             }
         });
@@ -80,15 +80,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void export(Context context, String sFileName, String sBody) {
         try {
+
             File root = new File(Environment.getExternalStorageDirectory(), "JuiceSSH Exports");
+
             if (!root.exists()) {
                 root.mkdirs();
             }
             File gpxfile = new File(root, sFileName);
-            FileWriter writer = new FileWriter(gpxfile);
-            writer.append(sBody);
+            gpxfile.delete();
+            FileWriter writer = new FileWriter(gpxfile, false);
+            writer.write(sBody);
             writer.flush();
             writer.close();
+
+
             Toast.makeText(context, "Saved", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
