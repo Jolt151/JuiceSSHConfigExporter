@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JuiceSSHConfigExporter.iml" filepath="$PROJECT_DIR$/JuiceSSHConfigExporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JuiceSSHConfigExporter.iml" filepath="$PROJECT_DIR$/.idea/JuiceSSHConfigExporter.iml" />
+      <module fileurl="file://C:\Users\michael\JuiceSSHConfigExporter\JuiceSSHConfigExporter.iml" filepath="C:\Users\michael\JuiceSSHConfigExporter\JuiceSSHConfigExporter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\michael\JuiceSSHConfigExporter\app\app.iml" filepath="C:\Users\michael\JuiceSSHConfigExporter\app\app.iml" />
     </modules>
   </component>
 </project>
